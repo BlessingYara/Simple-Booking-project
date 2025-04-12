@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f5f5f5;
+  }
+  
+  .container {
+    display: flex;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    max-width: 1000px;
+    width: 90%;
+  }
+  
+  .left {
+    background: linear-gradient(180deg, #d06fff, #a64dff);
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+  }
+  
+  .phone {
+    background: #fff;
+    width: 250px;
+    height: 500px;
+    border-radius: 35px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  
+  .header {
+    background: #a24dfc;
+    color: white;
+    padding: 20px;
+    font-weight: bold;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    font-size: 14px;
+  }
+  
+  .header small {
+    display: block;
+    font-weight: normal;
+    font-size: 12px;
+  }
+  
+  .chat {
+    flex-grow: 1;
+    padding: 10px 15px;
+    overflow-y: auto;
+    background: #f2f2f2;
+  }
+  
+  .message {
+    background: white;
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    width: fit-content;
+    max-width: 80%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  }
+  
+  .message img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    margin-right: 5px;
+  }
+  
+  .message.images {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .price-option {
+    background: #a24dfc;
+    color: white;
+    margin: 8px 0;
+    padding: 10px 15px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 13px;
+    cursor: pointer;
+  }
+  
+  .price-option span {
+    background: white;
+    color: #a24dfc;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+  }
+  
+  .input-box {
+    padding: 10px 15px;
+    background: white;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+  }
+  
+  .input-box input {
+    width: 100%;
+    padding: 8px 12px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    font-size: 13px;
+    outline: none;
+  }
+  
+  .right {
+    padding: 50px;
+    width: 60%;
+  }
+  
+  .right h2 {
+    color: #3b235c;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .right p {
+    color: #777;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
